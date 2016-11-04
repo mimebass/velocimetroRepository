@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1746B40D1DCC369900184870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1746B40C1DCC369900184870 /* AppDelegate.swift */; };
+		1746B40F1DCC369900184870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1746B40E1DCC369900184870 /* ViewController.swift */; };
+		1746B4121DCC369900184870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1746B4101DCC369900184870 /* Main.storyboard */; };
+		1746B4141DCC369900184870 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1746B4131DCC369900184870 /* Images.xcassets */; };
+		1746B4171DCC369900184870 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1746B4151DCC369900184870 /* LaunchScreen.xib */; };
+		1746B4231DCC369900184870 /* VelocimetroPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1746B4221DCC369900184870 /* VelocimetroPlaygroundTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1746B41D1DCC369900184870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1746B3FF1DCC369900184870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1746B4061DCC369900184870;
+			remoteInfo = VelocimetroPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1746B4071DCC369900184870 /* VelocimetroPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelocimetroPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1746B40B1DCC369900184870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1746B40C1DCC369900184870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1746B40E1DCC369900184870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1746B4111DCC369900184870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1746B4131DCC369900184870 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1746B4161DCC369900184870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1746B41C1DCC369900184870 /* VelocimetroPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocimetroPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1746B4211DCC369900184870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1746B4221DCC369900184870 /* VelocimetroPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocimetroPlaygroundTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1746B4041DCC369900184870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1746B4191DCC369900184870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1746B3FE1DCC369900184870 = {
+			isa = PBXGroup;
+			children = (
+				1746B4091DCC369900184870 /* VelocimetroPlayground */,
+				1746B41F1DCC369900184870 /* VelocimetroPlaygroundTests */,
+				1746B4081DCC369900184870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1746B4081DCC369900184870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1746B4071DCC369900184870 /* VelocimetroPlayground.app */,
+				1746B41C1DCC369900184870 /* VelocimetroPlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1746B4091DCC369900184870 /* VelocimetroPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				1746B40C1DCC369900184870 /* AppDelegate.swift */,
+				1746B40E1DCC369900184870 /* ViewController.swift */,
+				1746B4101DCC369900184870 /* Main.storyboard */,
+				1746B4131DCC369900184870 /* Images.xcassets */,
+				1746B4151DCC369900184870 /* LaunchScreen.xib */,
+				1746B40A1DCC369900184870 /* Supporting Files */,
+			);
+			path = VelocimetroPlayground;
+			sourceTree = "<group>";
+		};
+		1746B40A1DCC369900184870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1746B40B1DCC369900184870 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1746B41F1DCC369900184870 /* VelocimetroPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				1746B4221DCC369900184870 /* VelocimetroPlaygroundTests.swift */,
+				1746B4201DCC369900184870 /* Supporting Files */,
+			);
+			path = VelocimetroPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		1746B4201DCC369900184870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1746B4211DCC369900184870 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1746B4061DCC369900184870 /* VelocimetroPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1746B4261DCC369A00184870 /* Build configuration list for PBXNativeTarget "VelocimetroPlayground" */;
+			buildPhases = (
+				1746B4031DCC369900184870 /* Sources */,
+				1746B4041DCC369900184870 /* Frameworks */,
+				1746B4051DCC369900184870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VelocimetroPlayground;
+			productName = VelocimetroPlayground;
+			productReference = 1746B4071DCC369900184870 /* VelocimetroPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1746B41B1DCC369900184870 /* VelocimetroPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1746B4291DCC369A00184870 /* Build configuration list for PBXNativeTarget "VelocimetroPlaygroundTests" */;
+			buildPhases = (
+				1746B4181DCC369900184870 /* Sources */,
+				1746B4191DCC369900184870 /* Frameworks */,
+				1746B41A1DCC369900184870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1746B41E1DCC369900184870 /* PBXTargetDependency */,
+			);
+			name = VelocimetroPlaygroundTests;
+			productName = VelocimetroPlaygroundTests;
+			productReference = 1746B41C1DCC369900184870 /* VelocimetroPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1746B3FF1DCC369900184870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kew-Baez Media";
+				TargetAttributes = {
+					1746B4061DCC369900184870 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1746B41B1DCC369900184870 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1746B4061DCC369900184870;
+					};
+				};
+			};
+			buildConfigurationList = 1746B4021DCC369900184870 /* Build configuration list for PBXProject "VelocimetroPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1746B3FE1DCC369900184870;
+			productRefGroup = 1746B4081DCC369900184870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1746B4061DCC369900184870 /* VelocimetroPlayground */,
+				1746B41B1DCC369900184870 /* VelocimetroPlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1746B4051DCC369900184870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1746B4121DCC369900184870 /* Main.storyboard in Resources */,
+				1746B4171DCC369900184870 /* LaunchScreen.xib in Resources */,
+				1746B4141DCC369900184870 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1746B41A1DCC369900184870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1746B4031DCC369900184870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1746B40F1DCC369900184870 /* ViewController.swift in Sources */,
+				1746B40D1DCC369900184870 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1746B4181DCC369900184870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1746B4231DCC369900184870 /* VelocimetroPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1746B41E1DCC369900184870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1746B4061DCC369900184870 /* VelocimetroPlayground */;
+			targetProxy = 1746B41D1DCC369900184870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1746B4101DCC369900184870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1746B4111DCC369900184870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1746B4151DCC369900184870 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1746B4161DCC369900184870 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1746B4241DCC369A00184870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1746B4251DCC369A00184870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1746B4271DCC369A00184870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VelocimetroPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1746B4281DCC369A00184870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VelocimetroPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1746B42A1DCC369A00184870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VelocimetroPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VelocimetroPlayground.app/VelocimetroPlayground";
+			};
+			name = Debug;
+		};
+		1746B42B1DCC369A00184870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VelocimetroPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VelocimetroPlayground.app/VelocimetroPlayground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1746B4021DCC369900184870 /* Build configuration list for PBXProject "VelocimetroPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1746B4241DCC369A00184870 /* Debug */,
+				1746B4251DCC369A00184870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1746B4261DCC369A00184870 /* Build configuration list for PBXNativeTarget "VelocimetroPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1746B4271DCC369A00184870 /* Debug */,
+				1746B4281DCC369A00184870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1746B4291DCC369A00184870 /* Build configuration list for PBXNativeTarget "VelocimetroPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1746B42A1DCC369A00184870 /* Debug */,
+				1746B42B1DCC369A00184870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1746B3FF1DCC369900184870 /* Project object */;
+}
